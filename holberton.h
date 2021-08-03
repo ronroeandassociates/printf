@@ -1,4 +1,4 @@
-fndef _FUNCTION_PRINTF_H_
+#ifndef _FUNCTION_PRINTF_H_
 #define _FUNCTION_PRINTF_H_
 #include <stdarg.h>
 #include <stdlib.h>
