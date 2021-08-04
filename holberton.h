@@ -5,7 +5,6 @@
 #include <stddef.h>
 
 #define BUFFER_SIZE 1024
-#endif
 
 /**
  * struct modifier - mofifier fields collection
@@ -57,3 +56,5 @@ void array_rev(char *arr, int len);
 int int_len(int num);
 char *ito(int n);
 char *reverse(char *s);
+
+#endif 
