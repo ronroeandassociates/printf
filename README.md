@@ -21,7 +21,7 @@ int main(void)
 }
 ### Compilation:
 
-$ gcc *.c -o 
+$ gcc *.c -o
 Output:
 
 $
@@ -139,7 +139,7 @@ TH man 3 "27 October 2020" "0.20" "_printf man page"
 .B , ...)
 .SH DESCRIPTION
 .B _printf()
-Prints to standard output under the control of a 
+Prints to standard output under the control of a
 .I format
 .SH Return value
 On successful return, these functions return the number of characters printed, excluding the null byte used to end output to strings.
