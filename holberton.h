@@ -5,6 +5,7 @@
 #include <stddef.h>
 
 #define BUFFER_SIZE 1024
+#endif
 
 /**
  * struct modifier - mofifier fields collection
