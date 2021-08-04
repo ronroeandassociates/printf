@@ -10,7 +10,7 @@
 .B , ...)
 .SH DESCRIPTION
 .B _printf()
-Prints to standard output under the control of a 
+Prints to standard output under the control of a
 .I format
 .SH Return value
 On successful return, these functions return the number of characters printed, excluding the null byte used to end output to strings.
@@ -54,3 +54,5 @@ A '%' is written but no argument is converted. The complete version specificatio
 #include "holberton.h"
 
 _printf("%s", "my name",);
+.SH AUTHOR
+Ron Olsen Mikey Shrier
