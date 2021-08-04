@@ -169,9 +169,9 @@ char *get_length(const char *s, unsigned int *pos)
   */
 char get_specifier(const char *s, unsigned int *pos)
 {
-	char *spec_arr = "cs%dibuoxXSprR";
+/**	char *spec_arr = "cs%dibuoxXSprR";
 	int i;
-
+*/
 	for (i = 0; spec_arr[i]; i++)
 	{
 		if (spec_arr[i] == s[(*pos) + 1])

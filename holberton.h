@@ -11,10 +11,10 @@ int _printf(const char *format, ...);
 int _strlen(const char *s);
 
 /**
- *  * struct print_type - structure for different types of cases
- *   * @fs: function specifiers
- *    * @f: function pointer
- *     */
+ * struct print_type - structure for different types of cases
+ * @fs: function specifiers
+ * @f: function pointer
+ */
 
 typedef struct print_type
 {
