@@ -24,7 +24,7 @@ char *get_flags(const char *s, unsigned int *pos)
 		if (s[(*pos) + 1] == flags_arr[i])
 		{
 		size += sizeof(char);
-		res_flags = _realloc(res_flags, size - sizeof(char), size);
+		res_flags = realloc(res_flags, size - sizeof(char), size);
 		if (res_flags == NULL)
 		{
 			free(res_flags);
