@@ -24,7 +24,7 @@ while (length_arr[i] && !found)
 if (s[(*pos) + 1] == length_arr[i])
 {
 size += sizeof(char);
-res_length = _realloc(res_length, size - sizeof(char), size);
+res_length = realloc(res_length, size - sizeof(char), size);
 if (res_length == NULL)
 
 {
@@ -38,7 +38,7 @@ found = 1;
 i++;
 }
 }
-} while (found);
+while (found);
 if (res_length != NULL)
 res_length[size - 1] = '\0';
 return (res_length);

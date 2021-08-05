@@ -1,14 +1,7 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
-#include <stdio.h>
 #include <unistd.h>
 #include <stdarg.h>
-#include <stdlib.h>
-
-void _puts(char *str);
-int _putchar(char c);
-int _printf(const char *format, ...);
-int _strlen(const char *s);
 
 /**
  * struct print_type - structure for different types of cases
@@ -18,10 +11,14 @@ int _strlen(const char *s);
 
 typedef struct print_type
 {
-		char *fs;
-			int (*f)(va_list);
+char *fs;
+int (*f)(va_list);
 } pt_t;
 
+void _puts(char *str);
+int _putchar(char c);
+int _printf(const char *format, ...);
+int _strlen(const char *s);
 int print_c(va_list ap);
 int print_s(va_list ap);
 int print_d(va_list ap);
