@@ -89,7 +89,7 @@ Reverse the char * argument
 ### Example:
 
 int main(void)
-    _printf("r\n", "Ahmed");
+    _printf("r\n", "Mikey");
 ### Output:
 
 demhA
@@ -127,7 +127,7 @@ The flag characters for non-custom conversion specifiers (+ SPACE #)
 The length modifiers for non-custom conversion(d, i, u, o, x, X) specifiers(l h)
 
 man_3_printf
-TH man 3 "27 October 2020" "0.20" "_printf man page"
+TH man 3 "04 August 2021" "0.20" "_printf man page"
 .SH NAME
 .B _printf
 - Formatted output conversion.
@@ -187,4 +187,4 @@ _printf("%s", "my name",);
 .I printf(3)
 .SH BUGS
 :x
-
+Ron Olsen Mikey Shrier
