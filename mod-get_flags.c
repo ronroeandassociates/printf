@@ -24,7 +24,7 @@ while (flags_arr[i] && !found)
 if (s[(*pos) + 1] == flags_arr[i])
 {
 size += sizeof(char);
-res_flags = realloc(res_flags, size - sizeof(char), size);
+res_flags = malloc(res_flags, size - sizeof(char), size);
 if (res_flags == NULL)
 {
 free(res_flags);
