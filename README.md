@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # README.md
 ## printf
 ### Creating printf from scratch
