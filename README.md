@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README.md
 ## printf
 ### Creating printf from scratch
@@ -60,3 +61,6 @@ S
 Identical to the S conversion specifier, except any non-printable characters in the array (ie. characters with an ASCII value < 32 or >= 127) are printed as \x followed by the ASCII code value in hexadecimal
 
 Ron Olsen Mikey Shrier
+=======
+# test
+>>>>>>> fba18c639e12f5e9b1094b1ac5c9160ca617100d
