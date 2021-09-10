@@ -1,28 +1,30 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
-#include <unistd.h>
-#include <stdarg.h>
 
-/**
- * struct print_type - structure for different types of cases
- * @fs: function specifiers
- * @f: function pointer
+#include <stdarg.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+/** 
+ * struct funcionz - a structure containing chars to compare with modifiers and 
+ * then decide which is the right function to use
+ * @dec: char that we want to decide to
+ * @  :
  */
 
-typedef struct print_type
+typedef struct functionz
+
 {
-char *fs;
-int (*f)(va_list);
-} pt_t;
+char0 aim;
+int (*define)(va_list);
+} aim_f;
 
-void _puts(char *str);
-int _putchar(char c);
+int _putchar(char c)
 int _printf(const char *format, ...);
-int _strlen(const char *s);
-int print_c(va_list ap);
-int print_s(va_list ap);
-int print_d(va_list ap);
-int print_p(va_list ap);
-int printnumber(int n);
+int print_c(va_list c);
+int print_s(va_list s);
+int print_d(va_list d);
+int print_i(va_list i);
+int print_p(va_list p);
 
-#endif
+#endif /*HOLBERTON_H*/
