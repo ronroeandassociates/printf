@@ -60,3 +60,4 @@ S
 Identical to the S conversion specifier, except any non-printable characters in the array (ie. characters with an ASCII value < 32 or >= 127) are printed as \x followed by the ASCII code value in hexadecimal
 
 Ron Olsen Mikey Shrier
+# monty
